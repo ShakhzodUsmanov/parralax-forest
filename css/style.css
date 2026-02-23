@@ -27,18 +27,6 @@ body {
   font-family: "kamerik-3d";
 }
 
-.logo {
-  position: absolute;
-  width: calc(var(--index) * 7);
-  height: calc(var(--index) * 7);
-  background-image: url(../img/logo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  top: 5%;
-  left: 50%
-}
-
 .layers {
   perspective: 900px;
   overflow: hidden;
@@ -91,6 +79,7 @@ body {
 }
 
 .hero-content {
+  margin-top: calc(var(--index) * 3);
   font-size: calc(var(--index) * 2);
   text-align: center;
   text-transform: uppercase;
