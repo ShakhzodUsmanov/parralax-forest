@@ -126,4 +126,17 @@ body {
   border-color: #fff;
   cursor: pointer;
   transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.button-start:active {
+  transform: scale(0.95);
+  transition: 0.1s;
+  color: rgb(255 255 255/ 0.4);
+}
+
+.layer-4,
+.layer-5,
+.layer-6 {
+  pointer-events: none;
 }
